@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "aaa",
+      "type": "2",
+      "email": "m@gmail.com",
+      "passworld": "124",
+      "id": "fIJGnuidd8E"
+    },
+    {
+      "name": "ggg",
+      "type": "3",
+      "email": "2@email.com",
+      "passworld": "12345",
+      "id": "KGOWaWEZA5U"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

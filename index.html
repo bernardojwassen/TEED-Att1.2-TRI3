@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Academia</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Academia</h1>
+    </header>
+    <main>
+        <div class="formulario">
+            <input type="text" name="campoNome">
+
+            <select name="campoTipo">
+                <option value="1">Sistema</option>
+                <option value="2">Administrador</option>
+            </select>
+
+            <input type="text" name="campoEmail">
+
+            <input type="text" name="campoSenha">
+
+            <button class="botaoCriar">Criar usuário</button>
+        </div>
+
+        <div class="resultado" id="listaUsuarios">
+            <h3>NOME: </h3>
+            <h3>TIPO: </h3>
+            <h3>EMAIL: </h3>
+            <h3>SENHA: </h3>
+            <h3>REMOVER: </h3> 
+        </div>
+    </main>
+    <aside></aside>
+    <footer></footer>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
